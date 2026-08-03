@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Breakdown | BYCC BPL Season 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-trophy glow-icon"></i>
+                <span>BYCC</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="sponsors.html" class="nav-link">Sponsors</a>
+                <a href="finance.html" class="nav-link">Finance</a>
+                <a href="expenses.html" class="nav-link active">Expenses</a>
+                <a href="reports.html" class="nav-link">Reports</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="badge badge-gold">Itemized Audit Log</span>
+                <h1 class="section-title">Detailed Tournament Expenses</h1>
+                <p class="section-subtitle">Comprehensive line-item expenditure verification</p>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="glass-card search-filter-container margin-bottom-md">
+                <div class="grid grid-3 align-center">
+                    <div class="input-group">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="expense-search" class="form-control" placeholder="Search expense item...">
+                    </div>
+                    <div class="input-group">
+                        <select id="expense-category-filter" class="form-control">
+                            <option value="ALL">All Categories</option>
+                            <option value="Equipment">Equipment</option>
+                            <option value="Ground & Preparation">Ground & Prep</option>
+                            <option value="Catering & Food">Catering & Food</option>
+                            <option value="Branding & Media">Branding & Media</option>
+                            <option value="Logistics & Fuel">Logistics & Fuel</option>
+                            <option value="Refreshments">Refreshments</option>
+                            <option value="Operations">Operations</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select id="expense-sort" class="form-control">
+                            <option value="newest">Latest Item</option>
+                            <option value="amount-high">Amount: High to Low</option>
+                            <option value="amount-low">Amount: Low to High</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card table-wrapper">
+                <table class="styled-table full-width">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Expense Title</th>
+                            <th>Category</th>
+                            <th>Amount (NPR)</th>
+                            <th>Paid By</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="detailed-expense-tbody">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Baniniya Youth Cricket Club (BYCC). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/finance.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | BYCC BPL Season 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-trophy glow-icon"></i>
+                <span>BYCC</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="sponsors.html" class="nav-link">Sponsors</a>
+                <a href="finance.html" class="nav-link">Finance</a>
+                <a href="expenses.html" class="nav-link">Expenses</a>
+                <a href="reports.html" class="nav-link">Reports</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="badge badge-gold">Captured Moments</span>
+                <h1 class="section-title">BPL Season 4 Photo Gallery</h1>
+                <p class="section-subtitle">Highlights of key sponsors, officials, and match moments</p>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="grid grid-3" id="gallery-grid">
+                <!-- Dynamically Rendered -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Lightbox -->
+    <div class="lightbox-modal" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" alt="Enlarged gallery photo">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Baniniya Youth Cricket Club (BYCC). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

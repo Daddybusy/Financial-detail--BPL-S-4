@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Reports | BYCC BPL Season 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-trophy glow-icon"></i>
+                <span>BYCC</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="sponsors.html" class="nav-link">Sponsors</a>
+                <a href="finance.html" class="nav-link">Finance</a>
+                <a href="expenses.html" class="nav-link">Expenses</a>
+                <a href="reports.html" class="nav-link active">Reports</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="badge badge-gold">Analytical Insights</span>
+                <h1 class="section-title">Tournament Visual Reports</h1>
+                <p class="section-subtitle">Analytical breakdown of finances, participation, and execution</p>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="grid grid-2 margin-bottom-lg">
+                <div class="glass-card chart-card">
+                    <h3><i class="fa-solid fa-chart-column gold-text"></i> Income vs Expense Comparison</h3>
+                    <div class="chart-container">
+                        <canvas id="incomeVsExpenseChart"></canvas>
+                    </div>
+                </div>
+                <div class="glass-card chart-card">
+                    <h3><i class="fa-solid fa-chart-pie purple-text"></i> Expense Distribution Breakdown</h3>
+                    <div class="chart-container">
+                        <canvas id="expenseDistributionChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card chart-card margin-bottom-lg">
+                <h3><i class="fa-solid fa-chart-line blue-text"></i> Cumulative Financial Growth & Expenditure Flow</h3>
+                <div class="chart-container-large">
+                    <canvas id="financialGrowthChart"></canvas>
+                </div>
+            </div>
+
+            <div class="grid grid-2 margin-bottom-lg">
+                <div class="glass-card content-box">
+                    <h2><i class="fa-solid fa-star gold-text"></i> Tournament Highlights</h2>
+                    <ul class="custom-list">
+                        <li><i class="fa-solid fa-circle-check"></i> 100% budget balance perfection (Rs. 23,370 balanced).</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Complete hydration sponsorship covered for all days.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Custom trophies & medals provided for winners and runners-up.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Full digital media coverage and live local scoring updates.</li>
+                    </ul>
+                </div>
+                <div class="glass-card content-box">
+                    <h2><i class="fa-solid fa-rocket purple-text"></i> Future Planning (BPL Season 5)</h2>
+                    <ul class="custom-list">
+                        <li><i class="fa-solid fa-arrow-right"></i> Upgrade ground seating setup and boundary rope lines.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Introduce automated digital scoreboard displays.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Expand team slots and enhance cash prize pools.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Strengthen corporate and institutional sponsor ties.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Baniniya Youth Cricket Club (BYCC). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors | BYCC BPL Season 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-trophy glow-icon"></i>
+                <span>BYCC</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="sponsors.html" class="nav-link active">Sponsors</a>
+                <a href="finance.html" class="nav-link">Finance</a>
+                <a href="expenses.html" class="nav-link">Expenses</a>
+                <a href="reports.html" class="nav-link">Reports</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="badge badge-gold">Patrons & Backers</span>
+                <h1 class="section-title">Sponsor Transparency Portal</h1>
+                <p class="section-subtitle">Every contribution directly drives the success of BPL Season 4</p>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="filter-bar text-center margin-bottom-lg">
+                <button class="filter-btn active" data-filter="all">All Category</button>
+                <button class="filter-btn" data-filter="Platinum Sponsor">Platinum</button>
+                <button class="filter-btn" data-filter="Gold Sponsor">Gold</button>
+                <button class="filter-btn" data-filter="Jersey Sponsor">Jersey</button>
+                <button class="filter-btn" data-filter="Hydration Partner">Hydration</button>
+                <button class="filter-btn" data-filter="Award Partner">Awards</button>
+            </div>
+
+            <div class="grid grid-3" id="sponsors-grid">
+                <!-- Dynamically loaded via Javascript -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Baniniya Youth Cricket Club (BYCC). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/finance.js"></script>
+</body>
+</html>
