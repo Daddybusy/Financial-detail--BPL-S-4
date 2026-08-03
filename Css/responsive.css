@@ -1,0 +1,35 @@
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+    .grid-5 { grid-template-columns: repeat(3, 1fr); }
+    .grid-3 { grid-template-columns: repeat(2, 1fr); }
+    .hero-title { font-size: 2.8rem; }
+}
+
+@media (max-width: 768px) {
+    .hamburger { display: flex; }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(10, 11, 16, 0.98);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        transition: left 0.4s ease;
+    }
+
+    .nav-menu.active { left: 0; }
+
+    .grid-5, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+    
+    .hero-title { font-size: 2.2rem; }
+    .hero-subtitle { font-size: 1rem; }
+    
+    .honor-card { flex-direction: column; text-align: center; }
+    .honor-img-wrapper { margin: 0 auto; }
+    
+    .search-filter-container .grid-3 { grid-template-columns: 1fr; }
+}
