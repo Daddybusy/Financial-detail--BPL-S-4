@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "BYCC Tournament Squad",
+    "caption": "Baniniya Youth Cricket Club official team photograph for BPL Season 4.",
+    "image": "https://i.postimg.cc/X7HBkJ0P/1772534930974.png"
+  },
+  {
+    "id": 2,
+    "title": "Ram Babu Mandal - Jersey Patron",
+    "caption": "Vice Lecturer at Tribhuvan University & official jersey sponsor for BPL Season 4.",
+    "image": "images/rambabu.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Manish Mandal (Manu) - Youth Supporter",
+    "caption": "Recognized sports promoter driving local community engagement.",
+    "image": "images/manu.jpg"
+  }
+]

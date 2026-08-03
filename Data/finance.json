@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "totalIncome": 23370,
+    "totalExpense": 23370,
+    "balance": 0
+  },
+  "income": [
+    {
+      "source": "Entry Fee Collection",
+      "amount": 16970
+    },
+    {
+      "source": "Sponsor Contribution",
+      "amount": 1400
+    },
+    {
+      "source": "Contribution Madan",
+      "amount": 5000
+    }
+  ],
+  "expenseSummary": [
+    {
+      "category": "Pitch & Boundary Setup",
+      "amount": 1390
+    },
+    {
+      "category": "Match Supplies (Balls & Chunna)",
+      "amount": 1460
+    },
+    {
+      "category": "Catering & Hotel Expenses",
+      "amount": 10950
+    },
+    {
+      "category": "Branding, Certificates & Banner",
+      "amount": 5000
+    },
+    {
+      "category": "Fuel & Transport",
+      "amount": 1000
+    },
+    {
+      "category": "Refreshments & Miscellaneous",
+      "amount": 3570
+    }
+  ]
+}

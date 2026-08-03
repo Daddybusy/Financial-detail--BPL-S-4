@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Phalendar Yadav",
+    "category": "Platinum Sponsor",
+    "contribution": "Cash Rs.20,000",
+    "status": "Paid"
+  },
+  {
+    "id": 2,
+    "name": "Er. Dhanik Lal Mandal",
+    "category": "Gold Sponsor",
+    "contribution": "Cash Rs.10,000",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "name": "Madan Mandal",
+    "category": "Gold Sponsor",
+    "contribution": "Cash Rs.5,000",
+    "status": "Paid"
+  },
+  {
+    "id": 4,
+    "name": "Ram Babu Mandal",
+    "category": "Jersey Sponsor",
+    "contribution": "Team Jersey Sponsor (Entire Tournament)",
+    "status": "Sponsored"
+  },
+  {
+    "id": 5,
+    "name": "Er. Ugardeo Mandal",
+    "category": "Hydration Partner",
+    "contribution": "Water Bottles Entire Tournament + Red Bull for every Hat-trick Six & Wicket",
+    "status": "Sponsored"
+  },
+  {
+    "id": 6,
+    "name": "Mr. Opendar Mandal (Press)",
+    "category": "Hydration Partner",
+    "contribution": "4 Cartons Drinking Water",
+    "status": "Sponsored"
+  },
+  {
+    "id": 7,
+    "name": "Nabin Mandal",
+    "category": "Trophy Partner",
+    "contribution": "Second Prize Cup",
+    "status": "Sponsored"
+  },
+  {
+    "id": 8,
+    "name": "Parikschan Pandit",
+    "category": "Trophy Partner",
+    "contribution": "Winner Cup",
+    "status": "Sponsored"
+  },
+  {
+    "id": 9,
+    "name": "Dipendar Mahara",
+    "category": "Award Partner",
+    "contribution": "Tournament Medals",
+    "status": "Sponsored"
+  },
+  {
+    "id": 10,
+    "name": "Manish Mandal",
+    "category": "Food Partner",
+    "contribution": "One Day Breakfast",
+    "status": "Pending"
+  },
+  {
+    "id": 11,
+    "name": "Shree Laxan Mandal Janta Prabidhik Madhyamik School Baniniya",
+    "category": "Food Partner",
+    "contribution": "5 Days Breakfast",
+    "status": "Pending"
+  }
+]
